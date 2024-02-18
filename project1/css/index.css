@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    margin: 15rem 0 0 0 ;
+}
+
+.option{
+    display: flex;
+    justify-content: space-around;
+}
+
+.registration,.login,.catalog,.cart{
+    cursor: pointer;
+    
+}
+
+.registration:hover{
+    background-color: rgb(166, 128, 186);
+}
+.login:hover{
+    background-color: rgb(202, 210, 161);
+}
+.catalog:hover{
+    background-color: rgb(126, 127, 204);
+}
+.cart:hover{
+    background-color: rgb(192, 147, 166);
+}

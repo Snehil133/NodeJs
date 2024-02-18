@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+}
+
+#section1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+img{
+    height: 15rem;
+}
+
+#details{
+    border: 1px solid black;
+    height: 10rem;
+    width: 11rem;
+}
+
+#main{
+    margin: 5rem 0 0 5rem;
+}

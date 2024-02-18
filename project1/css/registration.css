@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    border: 1px solid black;
+    margin: 7rem auto;
+    display: block;
+    width: 30rem;
+    box-shadow: 3px 3px 3px 3px rgb(155, 196, 155, 155);
+}
+
+
+h2,.info{
+    text-align: center;
+    margin: 1rem 0 0 0;
+}
+
+.formDetails{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.firstName,.lastName,.email,.password,.reEnterPassword{
+    text-align: center;
+    font-weight: bold;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+input[type=text], input[type=password], input[type=email]{
+    width: 15rem;
+    display: block;
+    margin : 0.1rem auto;
+}
+
+button{
+    width: 15rem;
+    display: block;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+
+.account{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.register:hover{
+    background-color: silver;
+}
+
+
+
+
