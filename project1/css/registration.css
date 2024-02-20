@@ -5,37 +5,37 @@
     text-decoration: none;
 }
 
-body{
+.main{
     border: 1px solid black;
     margin: 7rem auto;
-    display: block;
     width: 30rem;
     box-shadow: 3px 3px 3px 3px rgb(155, 196, 155, 155);
+    background-color: blue;
 }
 
 
 h2,.info{
     text-align: center;
-    margin: 1rem 0 0 0;
+    margin: 1rem auto;
 }
 
 .formDetails{
-    /* border: 1px solid black; */
     display: grid;
     grid-template-columns: repeat(1,1fr);
+    background-color: red;
 }
 
 .firstName,.lastName,.email,.password,.reEnterPassword{
     text-align: center;
     font-weight: bold;
-    margin: 0.5rem 0 0.5rem 0;
+    margin: 0.5rem 0;
 }
 
 input[type=text], input[type=password], input[type=email]{
     width: 15rem;
-    display: block;
     margin : 0.1rem auto;
     padding: 0.6rem;
+    background-color: green;
 }
 
 button{
@@ -61,6 +61,13 @@ p > a{
     background-color: silver;
 }
 
-
+@media all and (max-width: 1000px){
+    .main{
+        border: 1px solid black;
+        margin: 2rem auto;
+        box-shadow: 3px 3px 3px 3px rgb(155, 196, 155, 155);
+        background-color: blue;
+    }
+}
 
 
