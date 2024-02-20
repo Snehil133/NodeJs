@@ -80,3 +80,23 @@ button:hover{
 .cart{
     margin: 2rem 1rem 1rem 2.5rem;
 }
+
+@media (min-width: 768px) and (max-width: 900px){
+    #section1,.mobileSection{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (min-width:400px) and (max-width:767px){
+    #section1,.mobileSection{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media all and (max-width:399px){
+    #section1,.mobileSection{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
