@@ -5,7 +5,16 @@
     /* text-decoration: none; */
 }
 
-#section1{
+body{
+    background-color: #f1f3f6;
+}
+
+h2{
+    text-align: center;
+    margin: 3rem 0 0 0;
+}
+
+#section1,.mobileSection{
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
@@ -15,11 +24,59 @@ img{
 }
 
 #details{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 10rem;
     width: 11rem;
 }
 
 #main{
     margin: 5rem 0 0 5rem;
+}
+
+#name{
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+#productName{
+    margin: 0 0 0.5rem 0;
+}
+
+#sellingPrice{
+    font-weight: bold;
+}
+
+#Discount{
+    color: red;
+    font-weight:bold;
+}
+
+#price{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#originalPrice{
+    text-decoration: line-through;
+}
+
+button{
+    height: 2rem;
+    width: 5rem;
+    background-color: rgb(220, 236, 236);
+}
+
+button:active{
+    background:olive;
+}
+
+button:focus{
+    background:olive;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.cart{
+    margin: 2rem 1rem 1rem 2.5rem;
 }
