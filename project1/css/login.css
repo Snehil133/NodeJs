@@ -5,12 +5,6 @@
     text-decoration: none;
 }
 
-body{
-    text-align: center;
-    /* background-color: aqua; */
-   overflow: hidden;
-}
-
 h2{
     text-align: center;
 }
@@ -43,4 +37,11 @@ input[type="email"], input[type=password]{
 
 .submit:hover{
     cursor: pointer;
+}
+
+
+@media all and (max-width: 1000px){
+    form{
+        margin:10rem 0 0 0;
+    }
 }
