@@ -5,14 +5,20 @@
     text-decoration: none;
 }
 
+body{
+    overflow: hidden;
+    font-size: 14px;
+    height: 1200px;
+}
+
 #main{
-    margin: 5rem 0 0 30rem;
+    margin: 10rem auto;
 }
 
 .mainInside{
     border: 1px solid rgb(241, 238, 238);
     box-shadow:rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
-    margin: 0 0 1rem 0;
+    margin: auto;
     width: 35rem;
 }
 
@@ -27,6 +33,7 @@ img{
     border: 1px solid rgb(241, 238, 238);
     box-shadow:rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
     margin: 2rem 0 1rem 2rem;
+    background-color: #f0f2f6;
 }
 
 .image{
@@ -46,4 +53,13 @@ img{
     margin: 4rem 0 0 5rem;
     box-shadow:rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
     text-align: center;
+    background-color: rgb(179, 247, 102);
+}
+
+@media all and (max-width: 900px){
+    body{
+        overflow: hidden;
+        font-size: 14px;
+        width: 500px;
+    }
 }

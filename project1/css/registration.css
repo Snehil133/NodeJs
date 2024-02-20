@@ -35,13 +35,21 @@ input[type=text], input[type=password], input[type=email]{
     width: 15rem;
     display: block;
     margin : 0.1rem auto;
+    padding: 0.6rem;
 }
 
 button{
-    width: 15rem;
+    width: 10rem;
     display: block;
     margin: 1rem auto;
     cursor: pointer;
+    padding: 0.8rem;
+    border-radius: 2rem;
+    background-color: rgb(81, 227, 227);
+}
+
+p > a{
+    font-weight: bold;
 }
 
 .account{

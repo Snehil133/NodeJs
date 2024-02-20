@@ -10,7 +10,7 @@ header{
 }
 
 .option{
-    display: flex;
+    display:flex;
     justify-content: space-around;
 }
 

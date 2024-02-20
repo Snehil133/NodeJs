@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+body{
+    overflow: hidden;
+}
+
 h2{
     text-align: center;
 }
@@ -12,7 +16,8 @@ h2{
 form{
     border: 1px solid black;
     text-align: center;
-    margin:10rem 8rem 0 30rem;
+    /* margin:10rem 8rem 0 30rem; */
+    margin: 10rem auto;
     height: 16rem;
     width: 30rem;
     display: grid;
@@ -40,8 +45,8 @@ input[type="email"], input[type=password]{
 }
 
 
-@media all and (max-width: 1000px){
+@media (min-width: 500px) and (max-width: 799px){
     form{
-        margin:10rem 0 0 0;
+        background-color: blue;
     }
 }
