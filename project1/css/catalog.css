@@ -9,10 +9,16 @@ body{
     background-color: #f1f3f6;
 }
 
-h2{
+.view{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 3rem 0 0 3rem;
+}
+
+/* h2{
     text-align: center;
     margin: 3rem 0 0 0;
-}
+} */
 
 #section1,.mobileSection{
     display: grid;
@@ -65,11 +71,12 @@ button{
 }
 
 button:active{
-    background:olive;
+    background:rgb(202, 202, 185);
+    
 }
 
 button:focus{
-    background:olive;
+    background:rgb(197, 197, 180);
 }
 
 button:hover{
@@ -85,6 +92,10 @@ button:hover{
         display: grid;
         grid-template-columns: repeat(3,1fr);
     }
+    .view{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
 @media (min-width:400px) and (max-width:767px){
@@ -97,5 +108,13 @@ button:hover{
     #section1,.mobileSection{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+    }
+    .view{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 2rem 0 0 2rem;
+    }
+    .view > button{
+        margin: 1rem 0 0 2rem;
     }
 }

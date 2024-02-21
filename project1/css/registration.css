@@ -10,7 +10,7 @@
     margin: 7rem auto;
     width: 30rem;
     box-shadow: 3px 3px 3px 3px rgb(155, 196, 155, 155);
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 
@@ -22,7 +22,7 @@ h2,.info{
 .formDetails{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    background-color: red;
+    /* background-color: red; */
 }
 
 .firstName,.lastName,.email,.password,.reEnterPassword{
@@ -35,7 +35,8 @@ input[type=text], input[type=password], input[type=email]{
     width: 15rem;
     margin : 0.1rem auto;
     padding: 0.6rem;
-    background-color: green;
+    /* background-color: green; */
+    box-shadow: 3px 3px 3px 3px rgb(55, 125, 95, 155);
 }
 
 button{
