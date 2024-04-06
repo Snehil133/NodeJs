@@ -9,6 +9,29 @@ body{
     background-color: #f1f3f6;
 }
 
+.head{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* background-color: rgb(190, 215, 215); */
+    margin: 1rem 0 0 0;
+    height: 6rem;
+}
+
+.head > h2{
+    margin: 2rem 0 0 5rem;
+}
+
+.head > button{
+    /* border: 5px solid black; */
+    margin: 2rem 0 0 10rem;
+    border-radius: 1rem;
+}
+
+.head > img{
+    height: 5rem;
+    margin: 0.5rem 0 0 2rem;
+}
+
 .view{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -85,6 +108,11 @@ button:hover{
 
 .cart{
     margin: 2rem 1rem 1rem 2.5rem;
+    border-radius: 1rem;
+}
+
+p{
+    text-align: center;
 }
 
 @media (min-width: 768px) and (max-width: 900px){
@@ -96,12 +124,42 @@ button:hover{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+    .head{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* background-color: rgb(190, 215, 215); */
+        margin: 1rem 0 0 0;
+        height: 6rem;
+    }
+    .head > h2{
+        display: none;
+    }
+    .head > button{
+        /* border: 5px solid black; */
+        margin: 2rem 0 0 1rem;
+        border-radius: 1rem;
+    }
 }
 
 @media (min-width:400px) and (max-width:767px){
     #section1,.mobileSection{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+    }
+    .head{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* background-color: rgb(190, 215, 215); */
+        margin: 1rem 0 0 0;
+        height: 6rem;
+    }
+    .head > h2{
+        display: none;
+    }
+    .head > button{
+        /* border: 5px solid black; */
+        margin: 2rem 0 0 1rem;
+        border-radius: 1rem;
     }
 }
 @media all and (max-width:399px){
@@ -116,5 +174,25 @@ button:hover{
     }
     .view > button{
         margin: 1rem 0 0 2rem;
+    }
+    .head{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* background-color: rgb(190, 215, 215); */
+        margin: 1rem 0 0 0;
+        height: 6rem;
+    }
+    .head > h2{
+        display: none;
+    }
+    .head > button{
+        /* border: 5px solid black; */
+        /* margin: 2rem 0 0 2rem; */
+        border-radius: 1rem;
+    }
+    .head > img{
+        height: 5rem;
+        margin: 0.5rem 0 0 2rem;
+        display: none;
     }
 }

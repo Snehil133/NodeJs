@@ -9,6 +9,11 @@ header{
     margin: 15rem 0 0 0 ;
 }
 
+p{
+    text-align: center;
+    margin: 5rem 0 0 0;
+}
+
 .option{
     display:flex;
     justify-content: space-around;

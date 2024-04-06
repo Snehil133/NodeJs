@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 body{
@@ -47,6 +47,6 @@ input[type="email"], input[type=password]{
 
 @media (min-width: 500px) and (max-width: 799px){
     form{
-        background-color: blue;
+        background-color: rgb(236, 237, 225);
     }
 }

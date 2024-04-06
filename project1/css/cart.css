@@ -55,6 +55,9 @@ img{
     background-color: rgb(179, 247, 102);
 }
 
+p{
+    text-align: center;
+}
 @media all and (max-width: 900px){
     body{
         overflow: hidden;

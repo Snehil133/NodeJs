@@ -62,12 +62,16 @@ p > a{
     background-color: silver;
 }
 
+p{
+    text-align: center;
+}
+
 @media all and (max-width: 1000px){
     .main{
         border: 1px solid black;
         margin: 2rem auto;
         box-shadow: 3px 3px 3px 3px rgb(155, 196, 155, 155);
-        background-color: blue;
+        background-color: rgb(218, 225, 225);
     }
 }
 
