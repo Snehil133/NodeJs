@@ -5,6 +5,13 @@
     text-decoration: none;
 }
 
+body{
+    background-image: url(/project1/images/shopping\ image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%
+}
+
 header{
     margin: 15rem 0 0 0 ;
 }
